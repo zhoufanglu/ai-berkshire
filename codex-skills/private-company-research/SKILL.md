@@ -1062,7 +1062,7 @@ Top 3 核心风险及应对策略
 
 ### 第八步：保存报告
 
-将完整最终报告写入 `reports/{公司名}/{公司名}-private-{YYYYMMDD}.md`。
+将完整最终报告写入 `reports/{公司名}/{公司名}-private-{YYYYMMDD}.md`。新文件确认保留后，删除该公司更早的 `*-private-*.md`，只留这一版。不删 thesis、news。回复里列出删除路径。
 
 ### 第九步：清理团队
 

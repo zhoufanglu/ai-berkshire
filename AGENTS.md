@@ -57,8 +57,9 @@ validation tools. Keep compatibility with both Claude Code and Codex users.
 
 ## Editing Rules
 
+- When a skill rewrites a company or industry report, delete older dated files of that same type and keep only the new version. Update `thesis` in place. Keep dated `news` files. Do not delete other companies or report types that were not regenerated.
 - Preserve existing report files unless the task specifically asks to change
-  them.
+  them, or the cleanup rule above applies.
 - Keep changes scoped to the requested skill, tool, script, or documentation.
 - Before finishing a skill/tool change, run the relevant syntax or generation
   check. For compatibility changes, run:

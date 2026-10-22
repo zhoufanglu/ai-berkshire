@@ -203,7 +203,7 @@ python3 tools/financial_rigor.py verify-valuation \
 
 ### 第七步：保存报告
 
-将报告写入 `reports/{公司名}-earnings-{期间}.md`，例如 `reports/腾讯-earnings-2025Q4.md`
+将报告写入 `reports/{公司名}/{公司名}-earnings-{期间}-{YYYYMMDD}.md`。新文件确认保留后，删除该公司更早的 `*-earnings-*`（不含 `earnings-team`）。不删 thesis、news。回复里列出删除路径
 
 ### 第八步：数据抽检（准出流程）
 

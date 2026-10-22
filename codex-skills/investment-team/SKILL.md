@@ -209,7 +209,7 @@ This skill is generated from `skills/investment-team.md` so Claude Code and Code
 
 ### 第八步：保存报告
 
-将完整最终报告写入 `~/{公司名}投资研究报告_{日期}.md`（日期格式 YYYYMMDD）。
+将 `01`–`04`、`README`、`最终报告` 写入 `reports/{公司名}/`，直接覆盖同名文件。若目录里还有带旧日期的同类型分析，新稿确认保留后删除，只留这一版。不删 thesis、news，也不删这次没重跑的类型。回复里列出删除路径。
 
 ### 第九步：数据抽检（准出流程）
 

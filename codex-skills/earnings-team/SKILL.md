@@ -415,14 +415,16 @@ This skill is generated from `skills/earnings-team.md` so Claude Code and Codex 
 
 ```
 reports/{公司名}/
-├── {公司名}-earnings-{期间}.md           ← 最终公众号文章（定稿）
-├── {公司名}-earnings-{期间}-研究底稿.md   ← 四大师合成研究报告（自用）
-├── {公司名}-earnings-{期间}-段永平.md     ← 生意本质解读
-├── {公司名}-earnings-{期间}-巴菲特.md     ← 财务质量审计
-├── {公司名}-earnings-{期间}-芒格.md       ← 竞争格局解读
-├── {公司名}-earnings-{期间}-李录.md       ← 风险信号分析
-└── {公司名}-earnings-{期间}-读者评审.md   ← 读者评审报告
+├── {公司名}-earnings-team-{期间}-{YYYYMMDD}.md  ← 合成稿
+├── {公司名}-earnings-{期间}-{YYYYMMDD}-研究底稿.md
+├── {公司名}-earnings-{期间}-{YYYYMMDD}-段永平.md
+├── {公司名}-earnings-{期间}-{YYYYMMDD}-巴菲特.md
+├── {公司名}-earnings-{期间}-{YYYYMMDD}-芒格.md
+├── {公司名}-earnings-{期间}-{YYYYMMDD}-李录.md
+└── {公司名}-earnings-{期间}-{YYYYMMDD}-读者评审.md
 ```
+
+新文件确认保留后，删除该公司更早的 `*-earnings-team-*` 及同一期间的旧视角稿。不删单独的 earnings-review 稿（除非这次一并重跑），不删 thesis、news。回复里列出删除路径。
 
 ## 数据抽检（准出流程）
 

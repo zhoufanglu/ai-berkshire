@@ -53,6 +53,15 @@ reports/
 | /portfolio-review | `portfolio-latest.md`（根目录，持续更新） | `reports/portfolio-latest.md` |
 | /management-deep-dive | `{公司名}-management-{YYYYMMDD}.md` | `reports/腾讯/腾讯-management-20260409.md` |
 
+## 重跑时删除旧报告
+
+同一公司（或同一行业）重新跑会落盘的 skill 时，新文件写入并确认保留后，**删除同一类型的旧日期文件，只留刚写的这一版**。
+
+- 匹配范围：`reports/{公司名}/`，以及行业报告所在的 `reports/` 根目录。按文件名前缀删除更早的 `research`、`checklist`、`earnings`、`earnings-team`、`private`、`management`、`industry`、`funnel`，以及带旧日期的四大师视角、`最终报告`、公众号稿
+- `investment-team` 的 `01`–`04`、`README`、`最终报告` 直接覆盖；目录里若还有旧日期副本，一并删除
+- **不删**：`thesis`（在原文件更新）、`news`（按日期留存）、`portfolio-latest.md`（覆盖自身）、其他公司、这次没有重跑的类型
+- 回复里列出删除的路径
+
 ## /investment-team 文件结构
 
 ```
